@@ -13,7 +13,7 @@ const navLinks = [
     ],
   },
   {
-    label: "JWC Club",
+    label: "JWC Girls Club",
     children: [
       { href: "/club", label: "About" },
       { href: "/club/schedule", label: "Schedule" },
@@ -92,7 +92,7 @@ export default function Navbar() {
               </div>
             </li>
             <li className="pt-2">
-              <div className="font-display text-xs tracking-widest uppercase text-gold/60 mb-2">JWC Club</div>
+              <div className="font-display text-xs tracking-widest uppercase text-gold/60 mb-2">JWC Girls Club</div>
               <div className="flex flex-col gap-1 pl-3">
                 {[{ href: "/club", label: "About" }, { href: "/club/schedule", label: "Schedule" }, { href: "/club/coaches", label: "Coaches" }].map(c => (
                   <Link key={c.href} href={c.href} className="font-display text-base uppercase text-white/70 hover:text-gold" onClick={() => setOpen(false)}>{c.label}</Link>

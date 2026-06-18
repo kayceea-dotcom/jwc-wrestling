@@ -21,7 +21,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href="/highschool" className="font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-8 py-4 hover:bg-yellow-400 transition-colors">High School Program</Link>
-            <Link href="/club" className="font-display font-bold tracking-widest uppercase text-sm border border-gold/50 text-gold px-8 py-4 hover:border-gold hover:bg-gold/10 transition-colors">JWC Club</Link>
+            <Link href="/club" className="font-display font-bold tracking-widest uppercase text-sm border border-gold/50 text-gold px-8 py-4 hover:border-gold hover:bg-gold/10 transition-colors">JWC Girls Club</Link>
           </div>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="absolute inset-0 border-2 border-transparent group-hover:border-crimson/60 transition-colors" />
             <div className="absolute bottom-0 left-0 p-6">
               <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson mb-2">JWC Girls</div>
-              <h2 className="font-display text-3xl font-bold uppercase text-white mb-3">Feeder Club</h2>
+              <h2 className="font-display text-3xl font-bold uppercase text-white mb-3">JWC Girls Club</h2>
               <Link href="/club" className="inline-block font-display text-xs font-bold tracking-widest uppercase bg-crimson text-white px-5 py-2 hover:bg-red-800 transition-colors">Learn More</Link>
             </div>
           </div>
@@ -98,6 +98,14 @@ export default function HomePage() {
           <p className="text-black/70 text-lg mb-10 max-w-xl mx-auto">
             Registration for both programs is handled through ShortStoppr. Sign up today and join the Wasp family.
           </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+            <a href="tel:8017837978" className="font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-8 py-4 hover:bg-steel transition-colors">
+              Call Billy Cox — 801-783-7978
+            </a>
+            <a href="mailto:12billycox@gmail.com" className="font-display font-bold tracking-widest uppercase text-sm border-2 border-black text-black px-8 py-4 hover:bg-black hover:text-gold transition-colors">
+              12billycox@gmail.com
+            </a>
+          </div>
           <a href="https://shortstoppr.com" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
             Register Now on ShortStoppr
           </a>
