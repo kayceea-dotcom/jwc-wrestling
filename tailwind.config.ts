@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#0A1628",
-        gold: "#F5B800",
-        cream: "#F8F6F1",
-        steel: "#4A5568",
-        crimson: "#C0392B",
+        gold: "#CFB53B",
+        crimson: "#8B0000",
+        black: "#0D0D0D",
+        offwhite: "#F5F5F0",
+        steel: "#4A4A4A",
       },
       fontFamily: {
-        display: ["'Oswald'", "sans-serif"],
-        body: ["'Inter'", "sans-serif"],
+        display: ["Oswald", "sans-serif"],
+        body: ["Inter", "sans-serif"],
       },
     },
   },

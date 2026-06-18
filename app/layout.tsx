@@ -4,32 +4,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "JWC Girls Wrestling | Jurupa Wrestling Club",
-  description:
-    "Empowering girls through the sport of wrestling. Join JWC Girls Wrestling — building strength, discipline, and champions.",
-  openGraph: {
-    title: "JWC Girls Wrestling",
-    description: "Empowering girls through the sport of wrestling.",
-    type: "website",
-  },
+  title: "Juab Girls Wrestling | Home of the Wasps",
+  description: "Juab Girls Wrestling — home of the Wasps. Two programs, one community.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </head>
-      <body className="bg-cream text-navy antialiased" style={{ fontFamily: "'Inter', sans-serif" }}>
+      <body style={{ fontFamily: "Inter, sans-serif" }}>
         <Navbar />
         <main>{children}</main>
         <Footer />
