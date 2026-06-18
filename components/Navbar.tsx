@@ -66,7 +66,7 @@ export default function Navbar() {
             )
           )}
           <li>
-            <a href="https://shortstoppr.com" target="_blank" rel="noopener noreferrer" className="font-display text-sm font-bold tracking-widest uppercase bg-gold text-black px-5 py-2 hover:bg-yellow-400 transition-colors">
+            <a href="/register" className="font-display text-sm font-bold tracking-widest uppercase bg-gold text-black px-5 py-2 hover:bg-yellow-400 transition-colors">
               Register
             </a>
           </li>
