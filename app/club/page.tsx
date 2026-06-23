@@ -23,6 +23,26 @@ export default function ClubPage() {
             <Link href="/club/coaches" className="font-display font-bold tracking-widest uppercase text-sm border-2 border-black text-black px-8 py-4 hover:bg-black hover:text-gold transition-colors">Meet the Coaches</Link>
           </div>
 
+          <div className="bg-black p-8 hive-pattern mb-16 border-l-4 border-gold">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+              <div>
+                <div className="font-display text-xs tracking-[0.3em] uppercase text-gold mb-2">Required for All Club Athletes</div>
+                <h2 className="font-display text-3xl font-bold uppercase text-white mb-3">USA Wrestling Membership</h2>
+                <p className="text-white/70 leading-relaxed max-w-xl">
+                  All JWC Girls club athletes must have an active USA Wrestling membership card before they can participate. When registering, make sure to select <span className="text-gold font-semibold">JWC Girls</span> as your club affiliate. Cards must be current — expired cards will not be accepted.
+                </p>
+                <p className="text-white/50 text-sm mt-3">
+                  Note: High school athletes only need this membership if they plan to compete in the off-season with the club team.
+                </p>
+              </div>
+              <div className="flex-shrink-0">
+                <a href="https://www.usawmembership.com/login" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-8 py-4 hover:bg-yellow-400 transition-colors whitespace-nowrap">
+                  Get USA Wrestling Card
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96">
               <Image src="/club-podium.jpg" alt="JWC Girls walking high school team to the podium at state" fill className="object-cover" />
@@ -56,9 +76,9 @@ export default function ClubPage() {
           <p className="text-steel mb-2">KayCee Anderson</p>
           <p className="text-steel mb-2"><a href="tel:8017178660" className="hover:text-gold transition-colors">801-717-8660</a></p>
           <p className="text-steel mb-8"><a href="mailto:kayceea@gmail.com" className="hover:text-gold transition-colors">kayceea@gmail.com</a></p>
-          <a href="/register" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-crimson text-white px-10 py-4 hover:bg-red-800 transition-colors">
-            Register on ShortStoppr
-          </a>
+          <Link href="/register" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-crimson text-white px-10 py-4 hover:bg-red-800 transition-colors">
+            Register Now
+          </Link>
         </div>
       </section>
     </>
