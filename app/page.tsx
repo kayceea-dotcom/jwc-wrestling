@@ -65,7 +65,7 @@ export default function HomePage() {
               <p className="text-steel leading-relaxed mb-8">
                 Whether your daughter is stepping on the mat for the first time or competing for a state title, there is a place for her here.
               </p>
-              <a href="https://shortstoppr.com" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-8 py-4 hover:bg-steel transition-colors">
+              <a href="/register" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-8 py-4 hover:bg-steel transition-colors">
                 Register on ShortStoppr
               </a>
             </div>
@@ -106,7 +106,7 @@ export default function HomePage() {
               12billycox@gmail.com
             </a>
           </div>
-          <a href="https://shortstoppr.com" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
+          <a href="/register" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
             Register Now on ShortStoppr
           </a>
         </div>

@@ -56,7 +56,7 @@ export default function ClubPage() {
           <p className="text-steel mb-2">KayCee Anderson</p>
           <p className="text-steel mb-2"><a href="tel:8017178660" className="hover:text-gold transition-colors">801-717-8660</a></p>
           <p className="text-steel mb-8"><a href="mailto:kayceea@gmail.com" className="hover:text-gold transition-colors">kayceea@gmail.com</a></p>
-          <a href="https://shortstoppr.com" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-crimson text-white px-10 py-4 hover:bg-red-800 transition-colors">
+          <a href="/register" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-crimson text-white px-10 py-4 hover:bg-red-800 transition-colors">
             Register on ShortStoppr
           </a>
         </div>

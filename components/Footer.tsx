@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <span className="font-display text-xs font-semibold tracking-widest uppercase text-gold/50 mb-1">Connect</span>
             <Link href="/contact" className="text-sm hover:text-gold transition-colors">Contact Us</Link>
-            <a href="https://shortstoppr.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gold transition-colors">Register on ShortStoppr</a>
+            <a href="/register" className="text-sm hover:text-gold transition-colors">Register on ShortStoppr</a>
             <a href="mailto:info@juabgirlswrestling.com" className="text-sm hover:text-gold transition-colors">info@juabgirlswrestling.com</a>
           </div>
         </div>
