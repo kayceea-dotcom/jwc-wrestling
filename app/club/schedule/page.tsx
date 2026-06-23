@@ -11,9 +11,9 @@ export default function ClubSchedulePage() {
           <iframe
             src="https://www.shortstoppr.com/public/schedule/e336b6a6-0e50-47c0-a41d-97eadec68c15?theme=dark"
             width="100%"
-            height="800"
+            height="400"
             frameBorder="0"
-            style={{ border: "none" }}
+            style={{ border: "none", display: "block" }}
           />
         </div>
       </div>

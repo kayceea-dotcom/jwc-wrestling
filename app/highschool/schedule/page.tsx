@@ -11,9 +11,9 @@ export default function HSSchedulePage() {
           <iframe
             src="https://www.shortstoppr.com/public/schedule/365a9fbf-2251-4857-9c67-4255f040e944?theme=dark"
             width="100%"
-            height="800"
+            height="400"
             frameBorder="0"
-            style={{ border: "none" }}
+            style={{ border: "none", display: "block" }}
           />
         </div>
       </div>
