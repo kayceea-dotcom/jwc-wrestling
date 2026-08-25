@@ -51,6 +51,26 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="bg-black py-16 hive-pattern border-y-4 border-gold">
+        <div className="max-w-6xl mx-auto px-4">
+          <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-gold block mb-4 text-center">Open Mats</span>
+          <h2 className="font-display text-4xl md:text-5xl font-bold uppercase text-white text-center mb-10">Come Wrestle With Us</h2>
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="bg-white/5 border border-gold/30 p-6 text-center">
+              <div className="font-display text-xs tracking-widest uppercase text-gold mb-2">5th Grade – High School</div>
+              <div className="text-white text-xl font-semibold mb-1">Mondays & Thursdays</div>
+              <div className="text-white/70">5:00 – 6:30 PM</div>
+            </div>
+            <div className="bg-white/5 border border-crimson/40 p-6 text-center">
+              <div className="font-display text-xs tracking-widest uppercase text-crimson mb-2">4th Grade & Under</div>
+              <div className="text-white text-xl font-semibold mb-1">Wednesdays</div>
+              <div className="text-white/70">5:00 – 6:00 PM</div>
+            </div>
+          </div>
+          <p className="text-white/60 text-center mt-8">Held at Juab Jr. High School</p>
+        </div>
+      </section>
+
       <section className="bg-offwhite py-24 hive-pattern">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">

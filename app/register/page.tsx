@@ -7,7 +7,7 @@ export default function RegisterPage() {
         <span className="font-display text-xs tracking-[0.3em] uppercase text-gold block mb-4">Join the Team</span>
         <h1 className="font-display text-6xl font-bold uppercase text-black mb-4">Register</h1>
         <p className="text-steel text-lg max-w-2xl mb-12">
-          Registration for both programs opens this fall. Check back soon or contact us directly to get on the list early.
+          Registration for both programs is handled through ShortStoppr. Pick your program below to get started.
         </p>
 
         <div className="bg-black p-8 hive-pattern mb-12 border-l-4 border-gold">
@@ -32,11 +32,11 @@ export default function RegisterPage() {
             <div className="font-display text-xs tracking-[0.3em] uppercase text-gold mb-2">Juab High School</div>
             <h2 className="font-display text-3xl font-bold uppercase text-white mb-4">Varsity Program</h2>
             <p className="text-white/60 leading-relaxed mb-8">
-              For high school athletes competing at the varsity level. Registration links will be available here this fall.
+              For high school athletes competing at the varsity level.
             </p>
-            <div className="border border-gold/30 px-6 py-4 text-center">
-              <span className="font-display text-sm font-bold tracking-widest uppercase text-gold">Registration Opens This Fall</span>
-            </div>
+            <a href="https://www.shortstoppr.com/register/team/365a9fbf-2251-4857-9c67-4255f040e944" target="_blank" rel="noopener noreferrer" className="block border border-gold/30 px-6 py-4 text-center hover:bg-gold/10 transition-colors">
+              <span className="font-display text-sm font-bold tracking-widest uppercase text-gold">Register on ShortStoppr</span>
+            </a>
             <div className="mt-6 pt-6 border-t border-white/10 space-y-1">
               <p className="text-white/50 text-sm">Questions? Contact Billy Cox</p>
               <a href="tel:8017837978" className="block text-white hover:text-gold transition-colors text-sm">801-783-7978</a>
@@ -48,11 +48,11 @@ export default function RegisterPage() {
             <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson mb-2">JWC Girls Club</div>
             <h2 className="font-display text-3xl font-bold uppercase text-white mb-4">Club Program</h2>
             <p className="text-white/60 leading-relaxed mb-8">
-              For youth athletes of all ages and experience levels. Registration links will be available here this fall.
+              For youth athletes of all ages and experience levels.
             </p>
-            <div className="border border-crimson/30 px-6 py-4 text-center">
-              <span className="font-display text-sm font-bold tracking-widest uppercase text-crimson">Registration Opens This Fall</span>
-            </div>
+            <a href="https://www.shortstoppr.com/register/team/e336b6a6-0e50-47c0-a41d-97eadec68c15" target="_blank" rel="noopener noreferrer" className="block border border-crimson/30 px-6 py-4 text-center hover:bg-crimson/10 transition-colors">
+              <span className="font-display text-sm font-bold tracking-widest uppercase text-crimson">Register on ShortStoppr</span>
+            </a>
             <div className="mt-6 pt-6 border-t border-white/10 space-y-1">
               <p className="text-white/50 text-sm">Questions? Contact KayCee Anderson</p>
               <a href="tel:8017178660" className="block text-white hover:text-gold transition-colors text-sm">801-717-8660</a>
