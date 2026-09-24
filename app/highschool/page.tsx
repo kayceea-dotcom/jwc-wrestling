@@ -41,9 +41,9 @@ export default function HighSchoolPage() {
           <p className="text-steel mb-2">Billy Cox</p>
           <p className="text-steel mb-2"><a href="tel:8017837978" className="hover:text-gold transition-colors">801-783-7978</a></p>
           <p className="text-steel mb-8"><a href="mailto:12billycox@gmail.com" className="hover:text-gold transition-colors">12billycox@gmail.com</a></p>
-          <a href="https://www.shortstoppr.com/register/team/365a9fbf-2251-4857-9c67-4255f040e944" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
-            Register on ShortStoppr
-          </a>
+          <div className="inline-block font-display font-bold tracking-widest uppercase text-sm border-2 border-black/20 text-steel px-10 py-4">
+            Registration Opens October 13
+          </div>
         </div>
       </section>
     </>

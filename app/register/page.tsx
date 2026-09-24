@@ -34,9 +34,9 @@ export default function RegisterPage() {
             <p className="text-white/60 leading-relaxed mb-8">
               For high school athletes competing at the varsity level.
             </p>
-            <a href="https://www.shortstoppr.com/register/team/365a9fbf-2251-4857-9c67-4255f040e944" target="_blank" rel="noopener noreferrer" className="block border border-gold/30 px-6 py-4 text-center hover:bg-gold/10 transition-colors">
-              <span className="font-display text-sm font-bold tracking-widest uppercase text-gold">Register on ShortStoppr</span>
-            </a>
+            <div className="block border border-gold/30 px-6 py-4 text-center">
+              <span className="font-display text-sm font-bold tracking-widest uppercase text-gold">Registration Opens October 13</span>
+            </div>
             <div className="mt-6 pt-6 border-t border-white/10 space-y-1">
               <p className="text-white/50 text-sm">Questions? Contact Billy Cox</p>
               <a href="tel:8017837978" className="block text-white hover:text-gold transition-colors text-sm">801-783-7978</a>
