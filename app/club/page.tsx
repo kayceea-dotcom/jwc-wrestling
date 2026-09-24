@@ -23,6 +23,24 @@ export default function ClubPage() {
             <Link href="/club/coaches" className="font-display font-bold tracking-widest uppercase text-sm border-2 border-black text-black px-8 py-4 hover:bg-black hover:text-gold transition-colors">Meet the Coaches</Link>
           </div>
 
+          <div className="mb-16">
+            <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-crimson block mb-4">Practice Schedule</span>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-black p-6 hive-pattern border border-gold/30 text-center">
+                <div className="font-display text-xs tracking-widest uppercase text-gold mb-2">PreK – 3rd Grade</div>
+                <div className="text-white text-xl font-semibold mb-1">Mondays & Wednesdays</div>
+                <div className="text-white/70 mb-1">6:30 – 7:30 PM</div>
+                <div className="text-white/50 text-sm">Juab Jr. High School</div>
+              </div>
+              <div className="bg-black p-6 hive-pattern border border-crimson/40 text-center">
+                <div className="font-display text-xs tracking-widest uppercase text-crimson mb-2">4th – 8th Grade</div>
+                <div className="text-white text-xl font-semibold mb-1">Mondays, Tuesdays & Wednesdays</div>
+                <div className="text-white/70 mb-1">4:00 – 6:00 PM</div>
+                <div className="text-white/50 text-sm">Nebo Elementary</div>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-black p-8 hive-pattern mb-16 border-l-4 border-gold">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
               <div>

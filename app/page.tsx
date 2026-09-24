@@ -26,6 +26,15 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="bg-gold py-8">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-black/60 block mb-2">Save the Date</span>
+          <h2 className="font-display text-3xl md:text-4xl font-bold uppercase text-black mb-3">Parents Meeting — October 13</h2>
+          <p className="text-black/80 font-medium">High School Little Theatre</p>
+          <p className="text-black/80 font-medium">High School: 7:00 PM &nbsp;|&nbsp; Elementary / Jr. High: 6:00 PM</p>
+        </div>
+      </section>
+
       <section className="bg-black py-4">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-4">
           <div className="relative h-80 overflow-hidden group">
