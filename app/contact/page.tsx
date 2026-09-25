@@ -24,7 +24,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <div className="font-display text-xs tracking-widest uppercase text-gold/60 mb-1">Registration</div>
-                <a href="https://www.shortstoppr.com/register/team/e336b6a6-0e50-47c0-a41d-97eadec68c15" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-colors">Register at shortstoppr.com</a>
+                <span className="text-white/50">Opens October 13</span>
               </div>
             </div>
           </div>

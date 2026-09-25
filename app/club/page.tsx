@@ -94,9 +94,9 @@ export default function ClubPage() {
           <p className="text-steel mb-2">KayCee Anderson</p>
           <p className="text-steel mb-2"><a href="tel:8017178660" className="hover:text-gold transition-colors">801-717-8660</a></p>
           <p className="text-steel mb-8"><a href="mailto:kayceea@gmail.com" className="hover:text-gold transition-colors">kayceea@gmail.com</a></p>
-          <a href="https://www.shortstoppr.com/register/team/e336b6a6-0e50-47c0-a41d-97eadec68c15" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-crimson text-white px-10 py-4 hover:bg-red-800 transition-colors">
-            Register Now
-          </a>
+          <div className="inline-block font-display font-bold tracking-widest uppercase text-sm border-2 border-black/20 text-steel px-10 py-4">
+            Registration Opens October 13
+          </div>
         </div>
       </section>
     </>
