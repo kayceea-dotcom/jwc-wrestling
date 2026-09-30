@@ -45,7 +45,7 @@ export default function ClubSchedulePage() {
               <tr className="border-b border-white/10">
                 <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4">Date</th>
                 <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4">Event</th>
-                <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4 pr-8">Location</th>
+                <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4 pr-16">Location</th>
               </tr>
             </thead>
             <tbody>
@@ -53,7 +53,7 @@ export default function ClubSchedulePage() {
                 <tr key={i} className={i % 2 === 0 ? "bg-white/5" : ""}>
                   <td className="text-white/80 text-sm px-6 py-3 whitespace-nowrap">{m.date}</td>
                   <td className="text-white font-medium text-sm px-6 py-3">{m.event}</td>
-                  <td className="text-white/60 text-sm px-6 py-3 pr-8">{m.location}</td>
+                  <td className="text-white/60 text-sm px-6 py-3 pr-16">{m.location}</td>
                 </tr>
               ))}
             </tbody>
