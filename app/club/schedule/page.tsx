@@ -39,13 +39,24 @@ export default function ClubSchedulePage() {
         </p>
 
         <h2 className="font-display text-2xl font-bold uppercase text-black mb-6">2026 – 2027 Meet Schedule</h2>
-        <div className="bg-black rounded-xl overflow-hidden mb-12">
+
+        <div className="md:hidden space-y-3 mb-12">
+          {meets.map((m, i) => (
+            <div key={i} className="bg-black rounded-xl p-4">
+              <div className="text-crimson text-xs font-display tracking-widest uppercase mb-1">{m.date}</div>
+              <div className="text-white font-semibold mb-1">{m.event}</div>
+              <div className="text-white/60 text-sm">{m.location}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="hidden md:block bg-black rounded-xl overflow-hidden mb-12">
           <table className="w-full text-left">
             <thead>
               <tr className="border-b border-white/10">
                 <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4">Date</th>
                 <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4">Event</th>
-                <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4 pr-16">Location</th>
+                <th className="font-display text-xs tracking-widest uppercase text-crimson px-6 py-4">Location</th>
               </tr>
             </thead>
             <tbody>
@@ -53,7 +64,7 @@ export default function ClubSchedulePage() {
                 <tr key={i} className={i % 2 === 0 ? "bg-white/5" : ""}>
                   <td className="text-white/80 text-sm px-6 py-3 whitespace-nowrap">{m.date}</td>
                   <td className="text-white font-medium text-sm px-6 py-3">{m.event}</td>
-                  <td className="text-white/60 text-sm px-6 py-3 pr-16">{m.location}</td>
+                  <td className="text-white/60 text-sm px-6 py-3">{m.location}</td>
                 </tr>
               ))}
             </tbody>
