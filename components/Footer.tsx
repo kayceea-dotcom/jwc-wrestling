@@ -28,7 +28,7 @@ export default function Footer() {
             <span className="font-display text-xs font-semibold tracking-widest uppercase text-gold/50 mb-1">Connect</span>
             <Link href="/contact" className="text-sm hover:text-gold transition-colors">Contact Us</Link>
             <a href="/register" className="text-sm hover:text-gold transition-colors">Register on ShortStoppr</a>
-            <a href="mailto:info@juabgirlswrestling.com" className="text-sm hover:text-gold transition-colors">info@juabgirlswrestling.com</a>
+            <a href="mailto:kayceea@gmail.com" className="text-sm hover:text-gold transition-colors">kayceea@gmail.com</a>
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-white/10 text-xs text-center text-white/30">
