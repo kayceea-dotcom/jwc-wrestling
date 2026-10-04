@@ -52,7 +52,7 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
             <div className="absolute inset-0 border-2 border-transparent group-hover:border-crimson/60 transition-colors" />
             <div className="absolute bottom-0 left-0 p-6">
-              <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson mb-2">JWC Girls</div>
+              <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson-light mb-2">JWC Girls</div>
               <h2 className="font-display text-3xl font-bold uppercase text-white mb-3">JWC Girls Club</h2>
               <Link href="/club" className="inline-block font-display text-xs font-bold tracking-widest uppercase bg-crimson text-white px-5 py-2 hover:bg-red-800 transition-colors">Learn More</Link>
             </div>
@@ -71,7 +71,7 @@ export default function HomePage() {
               <div className="text-white/70">5:00 – 6:30 PM</div>
             </div>
             <div className="bg-white/5 border border-crimson/40 p-6 text-center">
-              <div className="font-display text-xs tracking-widest uppercase text-crimson mb-2">4th Grade & Under</div>
+              <div className="font-display text-xs tracking-widest uppercase text-crimson-light mb-2">4th Grade & Under</div>
               <div className="text-white text-xl font-semibold mb-1">Wednesdays</div>
               <div className="text-white/70">5:00 – 6:00 PM</div>
             </div>

@@ -7,7 +7,7 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <div className="bg-black p-8 hive-pattern">
-            <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson mb-2">JWC Girls Club</div>
+            <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson-light mb-2">JWC Girls Club</div>
             <h2 className="font-display text-3xl font-bold uppercase text-white mb-6">Club Program</h2>
             <div className="space-y-4">
               <div>

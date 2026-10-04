@@ -8,7 +8,7 @@ export default function ClubPage() {
         <Image src="/club-team.jpg" alt="JWC Girls Wrestling Club" fill className="object-cover opacity-40" />
         <div className="absolute inset-0 hive-pattern opacity-30" />
         <div className="relative max-w-6xl mx-auto px-4 pb-10 w-full pt-24">
-          <span className="font-display text-xs tracking-[0.3em] uppercase text-crimson block mb-2">JWC Girls</span>
+          <span className="font-display text-xs tracking-[0.3em] uppercase text-crimson-light block mb-2">JWC Girls</span>
           <h1 className="font-display text-6xl font-bold uppercase text-white">Feeder Club</h1>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function ClubPage() {
                 <div className="text-white/50 text-sm">Juab Jr. High School</div>
               </div>
               <div className="bg-black p-6 hive-pattern border border-crimson/40 text-center">
-                <div className="font-display text-xs tracking-widest uppercase text-crimson mb-2">4th – 8th Grade</div>
+                <div className="font-display text-xs tracking-widest uppercase text-crimson-light mb-2">4th – 8th Grade</div>
                 <div className="text-white text-xl font-semibold mb-1">Mondays, Tuesdays & Wednesdays</div>
                 <div className="text-white/70 mb-1">4:00 – 6:00 PM</div>
                 <div className="text-white/50 text-sm">Nebo Elementary</div>

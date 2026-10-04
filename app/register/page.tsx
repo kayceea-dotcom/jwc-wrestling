@@ -45,13 +45,13 @@ export default function RegisterPage() {
           </div>
 
           <div className="bg-black p-8 hive-pattern">
-            <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson mb-2">JWC Girls Club</div>
+            <div className="font-display text-xs tracking-[0.3em] uppercase text-crimson-light mb-2">JWC Girls Club</div>
             <h2 className="font-display text-3xl font-bold uppercase text-white mb-4">Club Program</h2>
             <p className="text-white/60 leading-relaxed mb-8">
               For youth athletes of all ages and experience levels.
             </p>
             <div className="block border border-crimson/30 px-6 py-4 text-center">
-              <span className="font-display text-sm font-bold tracking-widest uppercase text-crimson">Registration Opens October 13</span>
+              <span className="font-display text-sm font-bold tracking-widest uppercase text-crimson-light">Registration Opens October 13</span>
             </div>
             <div className="mt-6 pt-6 border-t border-white/10 space-y-1">
               <p className="text-white/50 text-sm">Questions? Contact KayCee Anderson</p>

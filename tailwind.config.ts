@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         gold: "#CFB53B",
         crimson: "#8B0000",
+        "crimson-light": "#FF6B6B",
         black: "#0D0D0D",
         offwhite: "#F5F5F0",
         steel: "#4A4A4A",
