@@ -1,5 +1,5 @@
 const meets = [
-  { date: "Oct 22, 2026", event: "Westlake Dual", location: "Westlake" },
+  { date: "Oct 29, 2026 · 6–8 PM", event: "Westlake Dual", location: "Westlake" },
   { date: "Oct 31, 2026", event: "Nightmare on the Mat", location: "Golden Spike Arena" },
   { date: "Nov 7, 2026", event: "Rabbit Rumble", location: "Delta High School" },
   { date: "Nov 13, 2026", event: "North Sevier Jr", location: "N. Sevier Middle School" },
