@@ -13,6 +13,18 @@ const coaches = [
     photo: "/coach-raygen-newton.webp",
     bio: [] as string[],
   },
+  {
+    name: "Troy Pay",
+    role: "Assistant Coach",
+    photo: "/coach-troy-pay.webp",
+    bio: [] as string[],
+  },
+  {
+    name: "Kazeray Pay",
+    role: "Assistant Coach",
+    photo: "/coach-kazeray-pay.webp",
+    bio: [] as string[],
+  },
 ];
 
 export default function HSCoachesPage() {
