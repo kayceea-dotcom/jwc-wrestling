@@ -36,9 +36,9 @@ export default function HSCoachesPage() {
 
         <div className="space-y-12">
           {coaches.map((c) => (
-            <div key={c.name} className="grid md:grid-cols-[320px_1fr] gap-8 items-start">
-              <div className="relative aspect-[4/5] bg-black overflow-hidden">
-                <Image src={c.photo} alt={c.name} fill sizes="(min-width: 768px) 320px, 100vw" className="object-cover" />
+            <div key={c.name} className="grid md:grid-cols-[160px_1fr] gap-6 items-start">
+              <div className="relative aspect-[4/5] w-40 md:w-auto bg-black overflow-hidden">
+                <Image src={c.photo} alt={c.name} fill sizes="160px" className="object-cover" />
               </div>
               <div>
                 <h2 className="font-display text-4xl font-bold uppercase text-black mb-1">{c.name}</h2>
