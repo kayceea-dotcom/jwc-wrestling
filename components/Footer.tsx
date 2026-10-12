@@ -28,6 +28,8 @@ export default function Footer() {
             <span className="font-display text-xs font-semibold tracking-widest uppercase text-gold/50 mb-1">Connect</span>
             <Link href="/contact" className="text-sm hover:text-gold transition-colors">Contact Us</Link>
             <a href="/register" className="text-sm hover:text-gold transition-colors">Register on ShortStoppr</a>
+            <a href="https://stores.inksoft.com/jwc_girls/shop/home" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gold transition-colors">Team Gear Store</a>
+            <a href="https://tellitwithatee.com/juab_wrestling/shop/home" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gold transition-colors">Fan Gear Store</a>
             <a href="mailto:kayceea@gmail.com" className="text-sm hover:text-gold transition-colors">kayceea@gmail.com</a>
           </div>
         </div>
