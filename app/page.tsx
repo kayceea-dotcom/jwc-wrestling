@@ -35,6 +35,31 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="bg-offwhite py-10">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="bg-black hive-pattern border-l-4 border-gold p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="max-w-xl">
+              <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-gold block mb-2">Limited Time</span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold uppercase text-white mb-2">Team Gear Store Is Open</h2>
+              <p className="text-white/70 leading-relaxed mb-5">Warm-ups, singlets, and backpacks. Order while the store is open.</p>
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                <a href="https://stores.inksoft.com/jwc_girls/shop/home" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-8 py-3 hover:bg-yellow-400 transition-colors">
+                  Shop Team Gear
+                </a>
+                <Link href="/shop" className="font-display text-xs font-semibold tracking-widest uppercase text-white/70 hover:text-gold transition-colors">See the gear</Link>
+              </div>
+            </div>
+            <Link href="/shop" aria-label="See the team gear" className="flex gap-3 flex-shrink-0">
+              {["/shop-warmup-set.webp", "/shop-singlet.webp", "/shop-backpack.webp"].map((src) => (
+                <div key={src} className="relative w-24 h-24 md:w-28 md:h-28 overflow-hidden border border-gold/30">
+                  <Image src={src} alt="" fill sizes="112px" className="object-cover" />
+                </div>
+              ))}
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-black py-4">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-4">
           <div className="relative h-80 overflow-hidden group">

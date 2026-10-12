@@ -47,20 +47,25 @@ export default function ShopPage() {
           Shop Team Gear
         </a>
 
-        <div className="bg-black p-8 hive-pattern border-l-4 border-gold">
-          <div className="font-display text-xs tracking-[0.3em] uppercase text-gold mb-2">For the Fans</div>
-          <h2 className="font-display text-3xl font-bold uppercase text-white mb-3">Fan Gear</h2>
-          <p className="text-white/70 leading-relaxed max-w-xl mb-6">
-            Rep the Wasps. Browse Juab Wrestling fan gear for the whole family.
-          </p>
-          <a
-            href={FAN_GEAR_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-10 py-4 hover:bg-yellow-400 transition-colors"
-          >
-            Shop Fan Gear
-          </a>
+        <div className="bg-black p-8 hive-pattern border-l-4 border-gold flex flex-col md:flex-row md:items-center justify-between gap-8">
+          <div>
+            <div className="font-display text-xs tracking-[0.3em] uppercase text-gold mb-2">For the Fans</div>
+            <h2 className="font-display text-3xl font-bold uppercase text-white mb-3">Fan Gear</h2>
+            <p className="text-white/70 leading-relaxed max-w-xl mb-6">
+              Rep the Wasps. Browse Juab Wrestling fan gear for the whole family.
+            </p>
+            <a
+              href={FAN_GEAR_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-10 py-4 hover:bg-yellow-400 transition-colors"
+            >
+              Shop Fan Gear
+            </a>
+          </div>
+          <div className="relative w-48 h-48 md:w-56 md:h-56 flex-shrink-0 bg-white border border-gold/30">
+            <Image src="/shop-fan-gear.webp" alt="Juab Wrestling crewneck sweatshirt" fill sizes="224px" className="object-contain" />
+          </div>
         </div>
       </div>
     </div>
