@@ -25,6 +25,7 @@ export default function ClubPage() {
 
           <div className="mb-16">
             <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-crimson block mb-4">Practice Schedule</span>
+            <p className="text-steel text-lg mb-6"><span className="font-semibold text-black">Practices start October 20.</span> No practice October 19 (fall break).</p>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-black p-6 hive-pattern border border-gold/30 text-center">
                 <div className="font-display text-xs tracking-widest uppercase text-gold mb-2">PreK – 3rd Grade</div>
