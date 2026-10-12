@@ -41,7 +41,7 @@ export default function HomePage() {
             <div className="max-w-xl">
               <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-gold block mb-2">Limited Time</span>
               <h2 className="font-display text-3xl md:text-4xl font-bold uppercase text-white mb-2">Team Gear Store Is Open</h2>
-              <p className="text-white/70 leading-relaxed mb-5">Warm-ups, singlets, and backpacks. Order while the store is open.</p>
+              <p className="text-white/70 leading-relaxed mb-5">Warm-ups, singlets, and backpacks. Order by <span className="text-white font-semibold">Oct 26 at 11:59 PM</span>.</p>
               <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
                 <a href="https://stores.inksoft.com/jwc_girls/shop/home" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-8 py-3 hover:bg-yellow-400 transition-colors">
                   Shop Team Gear

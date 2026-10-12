@@ -17,7 +17,7 @@ export default function ShopPage() {
         <h1 className="font-display text-6xl font-bold uppercase text-black mb-12">Shop</h1>
 
         <h2 className="font-display text-3xl font-bold uppercase text-black mb-2">Team Gear</h2>
-        <p className="text-steel text-lg max-w-2xl mb-8">Official JWC Girls gear for our athletes.</p>
+        <p className="text-steel text-lg max-w-2xl mb-8">Official JWC Girls gear for our athletes. The team store closes Oct 26 at 11:59 PM.</p>
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {teamGear.map((item) => (
