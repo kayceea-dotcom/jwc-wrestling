@@ -16,8 +16,8 @@ export default function ShopPage() {
         <span className="font-display text-xs tracking-[0.3em] uppercase text-gold block mb-4">Gear</span>
         <h1 className="font-display text-6xl font-bold uppercase text-black mb-12">Shop</h1>
 
-        <h2 className="font-display text-3xl font-bold uppercase text-black mb-2">Team Gear</h2>
-        <p className="text-steel text-lg max-w-2xl mb-8">Official JWC Girls gear for our athletes. The team store closes Oct 26 at 11:59 PM.</p>
+        <h2 className="font-display text-3xl font-bold uppercase text-black mb-2">Club Team Gear</h2>
+        <p className="text-steel text-lg max-w-2xl mb-8">Official JWC Girls Club gear for our athletes. The store closes Oct 26 at 11:59 PM.</p>
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {teamGear.map((item) => (
@@ -44,7 +44,7 @@ export default function ShopPage() {
           rel="noopener noreferrer"
           className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-10 py-4 hover:bg-yellow-400 transition-colors mb-16"
         >
-          Shop Team Gear
+          Shop Club Team Gear
         </a>
 
         <div className="bg-black p-8 hive-pattern border-l-4 border-gold flex flex-col md:flex-row md:items-center justify-between gap-8">
