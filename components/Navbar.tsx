@@ -2,7 +2,13 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const navLinks = [
+const CLUB_GEAR_URL = "https://stores.inksoft.com/jwc_girls/shop/home";
+const FAN_GEAR_URL = "https://tellitwithatee.com/juab_wrestling/shop/home";
+
+type NavChild = { href: string; label: string; external?: boolean };
+type NavLink = { href?: string; label: string; children?: NavChild[] };
+
+const navLinks: NavLink[] = [
   { href: "/", label: "Home" },
   {
     label: "High School",
@@ -20,7 +26,14 @@ const navLinks = [
       { href: "/club/coaches", label: "Coaches" },
     ],
   },
-  { href: "/shop", label: "Shop" },
+  {
+    label: "Shop",
+    children: [
+      { href: "/shop", label: "All Gear" },
+      { href: CLUB_GEAR_URL, label: "Club Team Gear", external: true },
+      { href: FAN_GEAR_URL, label: "Fan Gear", external: true },
+    ],
+  },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -50,11 +63,17 @@ export default function Navbar() {
                 </button>
                 {dropdown === l.label && (
                   <div className="absolute top-full left-0 bg-black border border-gold/20 min-w-[160px] py-2">
-                    {l.children.map((c) => (
-                      <Link key={c.href} href={c.href} className="block px-4 py-3 font-display text-xs tracking-widest uppercase text-white/70 hover:text-gold hover:bg-white/5 transition-colors" onClick={() => setDropdown(null)}>
-                        {c.label}
-                      </Link>
-                    ))}
+                    {l.children.map((c) =>
+                      c.external ? (
+                        <a key={c.href} href={c.href} target="_blank" rel="noopener noreferrer" className="block px-4 py-3 font-display text-xs tracking-widest uppercase text-white/70 hover:text-gold hover:bg-white/5 transition-colors whitespace-nowrap" onClick={() => setDropdown(null)}>
+                          {c.label}
+                        </a>
+                      ) : (
+                        <Link key={c.href} href={c.href} className="block px-4 py-3 font-display text-xs tracking-widest uppercase text-white/70 hover:text-gold hover:bg-white/5 transition-colors whitespace-nowrap" onClick={() => setDropdown(null)}>
+                          {c.label}
+                        </Link>
+                      )
+                    )}
                   </div>
                 )}
               </li>
@@ -100,7 +119,14 @@ export default function Navbar() {
                 ))}
               </div>
             </li>
-            <li className="pt-2"><Link href="/shop" className="block font-display text-lg uppercase text-white/80 hover:text-gold py-1" onClick={() => setOpen(false)}>Shop</Link></li>
+            <li className="pt-2">
+              <div className="font-display text-xs tracking-widest uppercase text-gold/60 mb-2">Shop</div>
+              <div className="flex flex-col gap-1 pl-3">
+                <Link href="/shop" className="font-display text-base uppercase text-white/70 hover:text-gold" onClick={() => setOpen(false)}>All Gear</Link>
+                <a href={CLUB_GEAR_URL} target="_blank" rel="noopener noreferrer" className="font-display text-base uppercase text-white/70 hover:text-gold" onClick={() => setOpen(false)}>Club Team Gear</a>
+                <a href={FAN_GEAR_URL} target="_blank" rel="noopener noreferrer" className="font-display text-base uppercase text-white/70 hover:text-gold" onClick={() => setOpen(false)}>Fan Gear</a>
+              </div>
+            </li>
             <li className="pt-2"><Link href="/contact" className="block font-display text-lg uppercase text-white/80 hover:text-gold py-1" onClick={() => setOpen(false)}>Contact</Link></li>
             <li className="pt-3">
               <Link href="/register" className="inline-block font-display text-sm font-bold tracking-widest uppercase bg-gold text-black px-6 py-3">Register Now</Link>
