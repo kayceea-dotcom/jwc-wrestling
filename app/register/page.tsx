@@ -50,9 +50,9 @@ export default function RegisterPage() {
             <p className="text-white/60 leading-relaxed mb-8">
               For youth athletes of all ages and experience levels.
             </p>
-            <div className="block border border-crimson/30 px-6 py-4 text-center">
-              <span className="font-display text-sm font-bold tracking-widest uppercase text-crimson-light">Registration Opens October 13</span>
-            </div>
+            <a href="https://shortstoppr.com/register?org=0137b1a5-a589-4201-8fa1-53944a7193d7" target="_blank" rel="noopener noreferrer" className="block border border-crimson/30 px-6 py-4 text-center hover:bg-crimson/10 transition-colors">
+              <span className="font-display text-sm font-bold tracking-widest uppercase text-crimson-light">Register on ShortStoppr</span>
+            </a>
             <div className="mt-6 pt-6 border-t border-white/10 space-y-1">
               <p className="text-white/50 text-sm">Questions? Contact KayCee Anderson</p>
               <a href="tel:8017178660" className="block text-white hover:text-gold transition-colors text-sm">801-717-8660</a>
