@@ -26,12 +26,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-gold py-8">
+      <section className="bg-gold py-10">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-black/60 block mb-2">Save the Date</span>
-          <h2 className="font-display text-3xl md:text-4xl font-bold uppercase text-black mb-3">Parents Meeting — October 13</h2>
-          <p className="text-black/80 font-medium">High School Little Theatre</p>
-          <p className="text-black/80 font-medium">High School: 7:00 PM &nbsp;|&nbsp; Elementary / Jr. High: 6:00 PM</p>
+          <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-black/60 block mb-2">JWC Girls Club</span>
+          <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-black mb-2">Practices Start October 20</h2>
+          <p className="text-black/70 font-medium mb-6">No practice October 19 (fall break)</p>
+          <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto text-left">
+            <div className="bg-black p-5">
+              <div className="font-display text-xs tracking-widest uppercase text-gold mb-1">PreK – 3rd Grade</div>
+              <div className="text-white text-lg font-semibold">Mondays &amp; Wednesdays</div>
+              <div className="text-white/70">6:30 – 7:30 PM</div>
+              <div className="text-white/50 text-sm">Juab Jr. High School</div>
+            </div>
+            <div className="bg-black p-5">
+              <div className="font-display text-xs tracking-widest uppercase text-gold mb-1">4th – 8th Grade</div>
+              <div className="text-white text-lg font-semibold">Mondays, Tuesdays &amp; Wednesdays</div>
+              <div className="text-white/70">4:00 – 6:00 PM</div>
+              <div className="text-white/50 text-sm">Nebo Elementary</div>
+            </div>
+          </div>
         </div>
       </section>
 
