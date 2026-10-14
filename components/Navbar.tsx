@@ -129,7 +129,7 @@ export default function Navbar() {
             </li>
             <li className="pt-2"><Link href="/contact" className="block font-display text-lg uppercase text-white/80 hover:text-gold py-1" onClick={() => setOpen(false)}>Contact</Link></li>
             <li className="pt-3">
-              <Link href="/register" className="inline-block font-display text-sm font-bold tracking-widest uppercase bg-gold text-black px-6 py-3">Register Now</Link>
+              <Link href="/register" className="inline-block font-display text-sm font-bold tracking-widest uppercase bg-gold text-black px-6 py-3" onClick={() => setOpen(false)}>Register Now</Link>
             </li>
           </ul>
         </div>

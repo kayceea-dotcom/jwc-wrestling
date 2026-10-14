@@ -45,6 +45,9 @@ export default function HomePage() {
               <div className="text-white/50 text-sm">Nebo Elementary</div>
             </div>
           </div>
+          <a href="https://shortstoppr.com/register?org=0137b1a5-a589-4201-8fa1-53944a7193d7" target="_blank" rel="noopener noreferrer" className="inline-block mt-8 font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
+            Register for the Club
+          </a>
         </div>
       </section>
 
