@@ -42,7 +42,8 @@ export default function HomePage() {
               <div className="font-display text-xs tracking-widest uppercase text-gold mb-1">4th – 8th Grade</div>
               <div className="text-white text-lg font-semibold">Mondays, Tuesdays &amp; Wednesdays</div>
               <div className="text-white/70">4:00 – 6:00 PM</div>
-              <div className="text-white/50 text-sm">Nebo Elementary</div>
+              <div className="text-white/50 text-sm mt-1">Oct 20 &amp; 21: Juab Jr. High School</div>
+              <div className="text-white/50 text-sm">Starting Oct 26: Nebo View Elementary</div>
             </div>
           </div>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">

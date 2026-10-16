@@ -37,7 +37,8 @@ export default function ClubPage() {
                 <div className="font-display text-xs tracking-widest uppercase text-crimson-light mb-2">4th – 8th Grade</div>
                 <div className="text-white text-xl font-semibold mb-1">Mondays, Tuesdays & Wednesdays</div>
                 <div className="text-white/70 mb-1">4:00 – 6:00 PM</div>
-                <div className="text-white/50 text-sm">Nebo Elementary</div>
+                <div className="text-white/50 text-sm mt-1">Oct 20 &amp; 21: Juab Jr. High School</div>
+                <div className="text-white/50 text-sm">Starting Oct 26: Nebo View Elementary</div>
               </div>
             </div>
           </div>
