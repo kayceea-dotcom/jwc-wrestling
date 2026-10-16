@@ -45,9 +45,14 @@ export default function HomePage() {
               <div className="text-white/50 text-sm">Nebo Elementary</div>
             </div>
           </div>
-          <a href="https://shortstoppr.com/register?org=0137b1a5-a589-4201-8fa1-53944a7193d7" target="_blank" rel="noopener noreferrer" className="inline-block mt-8 font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
-            Register for the Club
-          </a>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://shortstoppr.com/register?org=0137b1a5-a589-4201-8fa1-53944a7193d7" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-black text-gold px-10 py-4 hover:bg-steel transition-colors">
+              Register for the Club
+            </a>
+            <a href="https://www.usawmembership.com/login" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm border-2 border-black text-black px-10 py-[14px] hover:bg-black hover:text-gold transition-colors">
+              Get USA Wrestling Membership
+            </a>
+          </div>
         </div>
       </section>
 
