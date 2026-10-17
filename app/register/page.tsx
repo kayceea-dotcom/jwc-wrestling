@@ -20,9 +20,9 @@ export default function RegisterPage() {
               </p>
             </div>
             <div className="flex-shrink-0">
-              <a href="https://www.usawmembership.com/login" target="_blank" rel="noopener noreferrer" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-8 py-4 hover:bg-yellow-400 transition-colors whitespace-nowrap">
+              <Link href="/usa-wrestling-membership" className="inline-block font-display font-bold tracking-widest uppercase text-sm bg-gold text-black px-8 py-4 hover:bg-yellow-400 transition-colors whitespace-nowrap">
                 Get USA Wrestling Card
-              </a>
+              </Link>
             </div>
           </div>
         </div>
