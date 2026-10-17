@@ -41,8 +41,11 @@ export default function HighSchoolPage() {
           <p className="text-steel mb-2">Billy Cox</p>
           <p className="text-steel mb-2"><a href="tel:8017837978" className="hover:text-gold transition-colors">801-783-7978</a></p>
           <p className="text-steel mb-8"><a href="mailto:12billycox@gmail.com" className="hover:text-gold transition-colors">12billycox@gmail.com</a></p>
-          <div className="inline-block font-display font-bold tracking-widest uppercase text-sm border-2 border-black/20 text-steel px-10 py-4">
-            Registration Opens October 13
+          <div className="inline-block bg-black hive-pattern border-l-4 border-gold px-10 py-6 text-center">
+            <div className="font-display text-xs tracking-[0.3em] uppercase text-gold mb-2">Open Mats · High School Only</div>
+            <div className="text-white text-xl font-semibold mb-1">Mondays &amp; Thursdays</div>
+            <div className="text-white/70">5:00 – 6:30 PM</div>
+            <div className="text-white/50 text-sm mt-1">Juab Jr. High School</div>
           </div>
         </div>
       </section>
