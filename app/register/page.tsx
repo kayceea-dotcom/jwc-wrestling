@@ -35,7 +35,7 @@ export default function RegisterPage() {
               For high school athletes competing at the varsity level.
             </p>
             <div className="block border border-gold/30 px-6 py-4 text-center">
-              <span className="font-display text-sm font-bold tracking-widest uppercase text-gold">Registration Opens October 13</span>
+              <span className="font-display text-sm font-bold tracking-widest uppercase text-gold">Registration Coming Soon</span>
             </div>
             <div className="mt-6 pt-6 border-t border-white/10 space-y-1">
               <p className="text-white/50 text-sm">Questions? Contact Billy Cox</p>

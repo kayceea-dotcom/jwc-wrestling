@@ -47,7 +47,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <div className="font-display text-xs tracking-widest uppercase text-gold/60 mb-1">Registration</div>
-                <span className="text-white/50">Opens October 13</span>
+                <span className="text-white/50">Coming soon</span>
               </div>
             </div>
           </div>
