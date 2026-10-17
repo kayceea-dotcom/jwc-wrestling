@@ -26,6 +26,7 @@ const navLinks: NavLink[] = [
       { href: "/club/coaches", label: "Coaches" },
     ],
   },
+  { href: "/usa-wrestling-membership", label: "Membership" },
   {
     label: "Shop",
     children: [
@@ -51,7 +52,7 @@ export default function Navbar() {
           </div>
         </Link>
 
-        <ul className="hidden md:flex items-center gap-6">
+        <ul className="hidden lg:flex items-center gap-6">
           {navLinks.map((l) =>
             l.children ? (
               <li key={l.label} className="relative" onMouseEnter={() => setDropdown(l.label)} onMouseLeave={() => setDropdown(null)}>
@@ -92,7 +93,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <button className="md:hidden flex flex-col gap-1.5 p-2" onClick={() => setOpen(!open)} aria-label="Toggle menu">
+        <button className="lg:hidden flex flex-col gap-1.5 p-2" onClick={() => setOpen(!open)} aria-label="Toggle menu">
           <span className={`block w-6 h-0.5 bg-white transition-all duration-200 ${open ? "rotate-45 translate-y-2" : ""}`} />
           <span className={`block w-6 h-0.5 bg-white transition-all duration-200 ${open ? "opacity-0" : ""}`} />
           <span className={`block w-6 h-0.5 bg-white transition-all duration-200 ${open ? "-rotate-45 -translate-y-2" : ""}`} />
@@ -100,7 +101,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="md:hidden bg-black border-t border-gold/20 px-4 pb-6 pt-4">
+        <div className="lg:hidden bg-black border-t border-gold/20 px-4 pb-6 pt-4">
           <ul className="flex flex-col gap-2">
             <li><Link href="/" className="block font-display text-lg uppercase text-white/80 hover:text-gold py-1" onClick={() => setOpen(false)}>Home</Link></li>
             <li className="pt-2">
@@ -119,6 +120,7 @@ export default function Navbar() {
                 ))}
               </div>
             </li>
+            <li className="pt-2"><Link href="/usa-wrestling-membership" className="block font-display text-lg uppercase text-white/80 hover:text-gold py-1" onClick={() => setOpen(false)}>Membership</Link></li>
             <li className="pt-2">
               <div className="font-display text-xs tracking-widest uppercase text-gold/60 mb-2">Shop</div>
               <div className="flex flex-col gap-1 pl-3">
