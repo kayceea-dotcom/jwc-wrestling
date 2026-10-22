@@ -25,7 +25,7 @@ export default function ClubPage() {
 
           <div className="mb-16">
             <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-crimson block mb-4">Practice Schedule</span>
-            <p className="text-steel text-lg mb-6"><span className="font-semibold text-black">Practices start October 20.</span> No practice October 19 (fall break).</p>
+            <p className="text-steel text-lg mb-6"><span className="font-semibold text-black">Practices are happening now.</span> Join us today!</p>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-black p-6 hive-pattern border border-gold/30 text-center">
                 <div className="font-display text-xs tracking-widest uppercase text-gold mb-2">PreK – 3rd Grade</div>
@@ -37,8 +37,7 @@ export default function ClubPage() {
                 <div className="font-display text-xs tracking-widest uppercase text-crimson-light mb-2">4th – 8th Grade</div>
                 <div className="text-white text-xl font-semibold mb-1">Mondays, Tuesdays & Wednesdays</div>
                 <div className="text-white/70 mb-1">4:00 – 6:00 PM</div>
-                <div className="text-white/50 text-sm mt-1">Oct 20 &amp; 21: Juab Jr. High School</div>
-                <div className="text-white/50 text-sm">Starting Oct 26: Nebo View Elementary</div>
+                <div className="text-white/50 text-sm">Nebo View Elementary</div>
               </div>
             </div>
           </div>

@@ -29,8 +29,8 @@ export default function HomePage() {
       <section className="bg-gold py-10">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <span className="font-display text-xs font-semibold tracking-[0.3em] uppercase text-black/60 block mb-2">JWC Girls Club</span>
-          <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-black mb-2">Practices Start October 20</h2>
-          <p className="text-black/70 font-medium mb-6">No practice October 19 (fall break)</p>
+          <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-black mb-2">Practices Are Happening Now</h2>
+          <p className="text-black/70 font-medium mb-6">Join us today</p>
           <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto text-left">
             <div className="bg-black p-5">
               <div className="font-display text-xs tracking-widest uppercase text-gold mb-1">PreK – 3rd Grade</div>
@@ -42,8 +42,7 @@ export default function HomePage() {
               <div className="font-display text-xs tracking-widest uppercase text-gold mb-1">4th – 8th Grade</div>
               <div className="text-white text-lg font-semibold">Mondays, Tuesdays &amp; Wednesdays</div>
               <div className="text-white/70">4:00 – 6:00 PM</div>
-              <div className="text-white/50 text-sm mt-1">Oct 20 &amp; 21: Juab Jr. High School</div>
-              <div className="text-white/50 text-sm">Starting Oct 26: Nebo View Elementary</div>
+              <div className="text-white/50 text-sm">Nebo View Elementary</div>
             </div>
           </div>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
